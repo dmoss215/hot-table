@@ -1,0 +1,23 @@
+{
+  "name": "hot-table",
+  "version": "1.0.0",
+  "description": "table reservation app with node and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmoss215/hot-table.git"
+  },
+  "author": "dm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmoss215/hot-table/issues"
+  },
+  "homepage": "https://github.com/dmoss215/hot-table#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
