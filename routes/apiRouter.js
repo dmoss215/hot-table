@@ -1,0 +1,3 @@
+var tableArr = [];
+var waitListArr = [];
+
