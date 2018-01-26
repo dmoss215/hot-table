@@ -4,15 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Hot Restaurant</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">    
 </head>
 
 <body>
-    
+    <div class='row'>
+    	<div class='col-1'></div>
+    	<div class="jumbotron col-10">
+  			<h1 class="display-4 centered">Hot Restaurant</h1>
+	  		<div class='centered'>	
+	  			<hr class="my-4">
+	  			<p>We only have 5 tables. Book yours now before they're all gone!</p>
+  			</div>
+  			<p class="lead">
+    		<div class="centered">
+    			<a class="btn btn-primary btn-lg" href="./viewTable.html" role="button">View Tables</a>
+    			<a class="btn btn-primary btn-lg" href="./reservation.html" role="button">Home</a>
+  			</div>
+  			</p>
+		</div>
+	</div>
+	<br />
+	<div class='row'>
+		<div class='col-lg-1'></div>
+		<div class="card col-lg-10">
+		    	<div class="card-header">
+		       		<h4 class="card-title col-lg-10">Table Reservation</h4>
+		        </div>
+		        <div class="card-body bold">
+		        	Name<br />
+						<div class="input-group">
+						  <div class="input-group-prepend"></div>
+						  <input type="text" class="form-control">
+						</div><br />
+		        	Phone Number<br />
+						<div class="input-group">
+						  <div class="input-group-prepend"></div>
+						  <input type="text" class="form-control">
+						</div><br />
+		        	E-mail<br />
+						<div class="input-group">
+						  <div class="input-group-prepend"></div>
+						  <input type="text" class="form-control">
+						</div><br />
+		        	Unique ID<br />
+						<div class="input-group">
+						  <div class="input-group-prepend"></div>
+						  <input type="text" class="form-control">
+						</div><br />
+					<button type="button" class="btn btn-danger">Submit</button>
+		        </div>
+		</div> 
+	</div>    
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <br />
+    <div class='row'>
+    	<div class='col-1'></div>
+    	<span><a href="./index.html">Home</a>
+    	<span> | </span>
+    	<a href="./viewTable.html">API Wait List</a></span>
+    </div> 
 </body>
 </html>
